@@ -19,7 +19,7 @@ int main(int argc,char *argv[]){
 			
 			for(i=0;i<filesize;i++){
 				tempC=fgetc(fp);
-				if(tempC=="\n"){
+				if(tempC==LF){
 					j++;
 				}
 				charArray[i][j]=tempC;
